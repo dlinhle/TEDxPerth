@@ -15,12 +15,6 @@
           <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" class="front-link">
             <h1 class="logo">
               <img src="<?php print $logo; ?>" alt="TEDxPerth" />
-              <?php if ($site_name): ?>
-                <?php print $site_name; ?>
-              <?php endif; ?>
-              <?php if ($site_slogan): ?>
-                <?php print "' - ',$site_slogan"; ?>
-              <?php endif; ?>
             </h1>
           </a>
         <?php endif; ?>
