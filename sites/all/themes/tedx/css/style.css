@@ -1176,5 +1176,10 @@ table tr td {
 
 .user-profile-listing-row {
     padding: 1em 0 1em 0;
-    border-bottom: 1px whitesmoke solid;
+    border-bottom: 1px #DFDFDF solid;
 }
+
+.user-profile-listing-row h2 {
+    font-weight: bold;
+}
+
