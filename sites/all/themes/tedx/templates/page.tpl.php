@@ -22,13 +22,7 @@
 
       <!-- NEXT EVENT -->	
       <div class="grid_8">
-        <div class="next-event-name">
-          <?php print theme_get_setting('next_event_name'); ?><!-- print the templatesettings chosen next event information -->
-        </div>
-        <div class="next-event-divider">-</div><!-- - with text-indent for non-css views -->	
-        <div class="next-event-info">
-          <?php print theme_get_setting('next_event_info'); ?>
-        </div>
+
       </div>
     </div>
   </div>
