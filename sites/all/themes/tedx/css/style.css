@@ -1064,3 +1064,25 @@ table tr {
 table tr td {
   padding: 15px 50px 15px 0;
 }
+
+/* TEDxPerth Overrides
+---------------------------------------------------- */
+#block-widgets-s_socialmedia_profile-default div {
+  padding: 0;
+}
+
+#block-widgets-s_socialmedia_profile-default .block-inner h3 {
+    text-transform: none;
+}
+
+#block-widgets-s_socialmedia_profile-default .block-inner h3 .block-title {
+    text-transform: none;
+    color: white;
+    background-color: #FF2B06;
+    padding: 10px;
+}
+
+#block-widgets-s_socialmedia_profile-default .block-inner .content {
+    padding: 10px;
+}
+
