@@ -1161,7 +1161,7 @@ table tr td {
     padding: 10px;
 }
 
-#block-system-user-menu .block-inner .content .menu ul {
+#block-system-user-menu .block-inner .content .menu {
     list-style-type: none;
     padding: 0 0 2em;
 }
