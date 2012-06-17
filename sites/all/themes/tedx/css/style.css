@@ -1067,6 +1067,7 @@ table tr td {
 
 /* TEDxPerth Overrides
 ---------------------------------------------------- */
+/* #block-widgets-s_socialmedia_profile-default */
 #block-widgets-s_socialmedia_profile-default {
   padding: 0;
 }
@@ -1080,13 +1081,14 @@ table tr td {
     color: white;
     background-color: #FF2B06;
     padding: 10px;
+    margin: 0;
 }
 
 #block-widgets-s_socialmedia_profile-default .block-inner .content {
     padding: 10px;
 }
 
-
+/* #block-widgets-s_twitter-profile-widget */
 #block-widgets-s_twitter-profile-widget {
     padding: 0;
 }
@@ -1100,13 +1102,14 @@ table tr td {
     color: white;
     background-color: #FF2B06;
     padding: 10px;
+    margin: 0;
 }
 
 #block-widgets-s_twitter-profile-widget .block-inner .content {
     padding: 10px;
 }
 
-
+/* #block-views-site_tweets-block */
 #block-views-site_tweets-block {
     padding: 0;
     font-size: 8pt;
@@ -1121,13 +1124,20 @@ block-views-site_tweets-block .block-inner h3 {
     color: white;
     background-color: #FF2B06;
     padding: 10px;
+    margin: 0;
 }
 
 #block-views-site_tweets-block .block-inner .content {
     padding: 10px;
 }
 
-#block-views-site_tweets-block .block-inner .content .view .item-list ul{
+#block-views-site_tweets-block .block-inner .content .view .item-list ul {
     list-style-type: none;
+    padding: 0 0 1em;
 }
+
+#block-views-site_tweets-block .block-inner .content .view .item-list ul {
+    padding-left: 0;
+}
+
 
