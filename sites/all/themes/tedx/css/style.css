@@ -1109,6 +1109,7 @@ table tr td {
 
 #block-views-site_tweets-block {
     padding: 0;
+    font-size: 8pt;
 }
 
 block-views-site_tweets-block .block-inner h3 {
