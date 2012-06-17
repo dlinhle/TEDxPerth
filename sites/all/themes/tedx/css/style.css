@@ -1115,7 +1115,7 @@ table tr td {
     font-size: 8pt;
 }
 
-block-views-site_tweets-block .block-inner h3 {
+#block-views-site_tweets-block .block-inner h3 {
     text-transform: none;
 }
 
@@ -1141,15 +1141,15 @@ block-views-site_tweets-block .block-inner h3 {
 }
 
 /* #block-system-user-menu */
-#block-views-site_tweets-block {
+#block-system-user-menu {
     padding: 0;
 }
 
-block-views-site_tweets-block .block-inner h3 {
+#block-system-user-menu .block-inner h3 {
     text-transform: none;
 }
 
-#block-views-site_tweets-block .block-inner .block-title {
+#block-system-user-menu .block-inner .block-title {
     text-transform: none;
     color: white;
     background-color: #FF2B06;
@@ -1157,15 +1157,15 @@ block-views-site_tweets-block .block-inner h3 {
     margin: 0;
 }
 
-#block-views-site_tweets-block .block-inner .content {
+#block-system-user-menu .block-inner .content {
     padding: 10px;
 }
 
-#block-views-site_tweets-block .block-inner .content .view .item-list ul {
+#block-system-user-menu .block-inner .content .view .item-list ul {
     list-style-type: none;
     padding: 0 0 2em;
 }
 
-#block-views-site_tweets-block .block-inner .content .view .item-list li {
+#block-system-user-menu .block-inner .content .view .item-list li {
     margin-left: 0;
 }
