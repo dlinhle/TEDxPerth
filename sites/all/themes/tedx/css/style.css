@@ -1173,3 +1173,8 @@ table tr td {
 .user_picture {
     float: right;
 }
+
+.user_profile_listing_row {
+    padding: 0 0 3em 0;
+    border-bottom: 1px gray solid;
+}
