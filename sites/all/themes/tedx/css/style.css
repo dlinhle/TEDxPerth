@@ -1126,3 +1126,8 @@ block-views-site_tweets-block .block-inner h3 {
 #block-views-site_tweets-block .block-inner .content {
     padding: 10px;
 }
+
+#block-views-site_tweets-block .block-inner .content .view .item-list ul{
+    list-style-type: none;
+}
+
