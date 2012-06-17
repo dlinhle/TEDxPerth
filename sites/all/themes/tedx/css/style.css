@@ -1175,6 +1175,7 @@ table tr td {
 /* #block-views-tedxperth_members-block */
 #block-views-tedxperth_members-block {
     padding: 0;
+    font-size: 9pt;
 }
 
 #block-views-tedxperth_members-block .block-inner h3 {
