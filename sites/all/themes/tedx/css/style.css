@@ -1161,11 +1161,11 @@ table tr td {
     padding: 10px;
 }
 
-#block-system-user-menu .block-inner .content .view .item-list ul {
+#block-system-user-menu .block-inner .content .menu ul {
     list-style-type: none;
     padding: 0 0 2em;
 }
 
-#block-system-user-menu .block-inner .content .view .item-list li {
+#block-system-user-menu .block-inner .content .menu li {
     margin-left: 0;
 }
