@@ -1175,6 +1175,6 @@ table tr td {
 }
 
 .user-profile-listing-row {
-    padding: 0 0 3em 0;
-    border-bottom: 1px gray solid;
+    padding: 1em 0 1em 0;
+    border-bottom: 1px whitesmoke solid;
 }
