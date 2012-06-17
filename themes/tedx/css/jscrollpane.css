@@ -1,0 +1,51 @@
+.jScrollPaneContainer {
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+.jScrollPaneTrack {
+  background: #c9c9c9;
+  cursor: pointer;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.jScrollPaneDrag {
+  background: #b7b7b7;
+  cursor: pointer;
+  overflow: hidden;
+  position: absolute;
+}
+.jScrollPaneDragTop {
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+}
+.jScrollPaneDragBottom {
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+}
+a.jScrollArrowUp {
+  display: block;
+  height: 9px;
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+  text-indent: -2000px;
+  top: 0;
+  z-index: 1;
+}
+a.jScrollArrowDown {
+  bottom: 0;
+  display: block;
+  height: 9px;
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+  text-indent: -2000px;
+  z-index: 1;
+}

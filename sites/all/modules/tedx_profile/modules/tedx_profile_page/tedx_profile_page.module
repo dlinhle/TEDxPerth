@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the tedx_profile_page feature.
+ */
+
+include_once "tedx_profile_page.features.inc";

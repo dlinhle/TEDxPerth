@@ -1,0 +1,59 @@
+#twitter-ticker {
+  color: #000000;
+  display: none;
+  height: 175px;
+  text-align: left;
+  width: 270px;
+}
+#tweet-container {
+  height: 175px;
+  overflow: hidden;
+  padding: 0px;
+  position: relative;
+}
+.tweet {
+  margin: 0px;
+  margin-bottom: 5px;
+  overflow: hidden;
+  padding-left: 0px;
+  padding-right: 10px;
+  width: auto;
+}
+.tweet .avatar {
+  float: left;
+}
+.tweet .time {
+  color: #aaaaaa;
+  float: right;
+  font-size: 10px;
+  white-space: nowrap;
+  width: 185px;
+}
+.tweet .avatar img {
+  height: 45px;
+  margin-left: 0;
+  margin-right: 5px;
+  margin-top: 0;
+  width: 45px;
+}
+.tweet .txt {
+  float: right;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  margin-bottom: 10px;
+  width: 185px;
+}
+.tweet .user {
+  float: right;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: -1px;
+  width: 185px;
+}
+.tweet .user a {
+  color: black;
+  text-decoration: none;
+}
+#loading {
+  margin: 60px 115px;
+}

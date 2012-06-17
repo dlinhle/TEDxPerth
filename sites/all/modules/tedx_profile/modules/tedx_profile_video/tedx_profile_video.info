@@ -1,0 +1,22 @@
+name = "tedx_profile_video"
+description = "Contenttype video"
+core = "7.x"
+package = "Features"
+dependencies[] = "features"
+dependencies[] = "field_sql_storage"
+dependencies[] = "image"
+dependencies[] = "node"
+dependencies[] = "text"
+features[field][] = "node-video-body"
+features[field][] = "node-video-field_image"
+features[field][] = "node-video-field_recorddate"
+features[field][] = "node-video-field_vimeocode"
+features[field][] = "node-video-field_youtubecode"
+features[node][] = "video"
+
+; Information added by drupal.org packaging script on 2012-05-14
+version = "7.x-1.1"
+core = "7.x"
+project = "tedxprofile"
+datestamp = "1336998120"
+

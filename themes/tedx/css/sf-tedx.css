@@ -1,0 +1,104 @@
+#block-superfish-1 .sf-menu {
+  float: left;
+  margin-bottom: 1em;
+  padding: 0;
+}
+#block-superfish-1 .sf-menu.sf-navbar {
+  width: 100%;
+}
+#block-superfish-1 .sf-menu ul {
+  padding-left: 0;
+}
+#block-superfish-1 ul.sf-menu li ul {
+  margin-left: -2px;
+}
+#block-superfish-1 ul.sf-menu {
+  background: transparent url('../images/primary-menu-divider.png') no-repeat left;
+  height: 39px;
+}
+#block-superfish-1 ul.sf-menu li {
+  background: transparent url('../images/primary-menu-divider.png') no-repeat right;
+  height: 39px;
+  padding: 0 1px 0 0;
+}
+#block-superfish-1 ul.sf-menu li ul li {
+  background: #000000;
+  height: 39px;
+  padding: 0;
+}
+#block-superfish-1 ul.sf-menu li.first {
+  padding: 0 1px 0 2px;
+}
+#block-superfish-1 ul.sf-menu li.first ul li {
+  padding: 0;
+}
+#block-superfish-1 ul.sf-menu li ul li.first {
+  background: transparent url('../images/primary-menu-bg.png') repeat-x;
+  padding: 0;
+}
+#block-superfish-1 .sf-menu a {
+  border: 0;
+  color: #c1c1bc;
+  height: 39px;
+  line-height: 39px;
+  padding: 0 10px 0 10px;
+  white-space: nowrap;
+}
+#block-superfish-1 .shadow {
+  text-shadow: #000000 -1px -1px 0px;
+}
+#block-superfish-1 .sf-menu.sf-navbar a {
+  border: 0;
+}
+#block-superfish-1 .sf-menu span.sf-description {
+  color: #13a;
+  display: block;
+  font-size: 0.8em;
+  line-height: 1.5em;
+  margin: 5px 0 0 5px;
+  padding: 0;
+}
+#block-superfish-1 .sf-menu li.active a,
+#block-superfish-1 .sf-menu a.active,
+#block-superfish-1 .sf-menu a:focus,
+#block-superfish-1 .sf-menu a:hover,
+#block-superfish-1 .sf-menu a:active,
+#block-superfish-1 .sf-menu.sf-navbar li li {
+  background: transparent url('../images/primary-menu-active.png') repeat-x bottom center;
+  color: #ffffff;
+}
+#block-superfish-1 .sf-menu li ul li.active a,
+#block-superfish-1 .sf-menu li ul li a.active,
+#block-superfish-1 .sf-menu li ul li a:active,
+#block-superfish-1 .sf-menu li ul li a:focus,
+#block-superfish-1 .sf-menu li ul li a:hover {
+  background: transparent url('../images/primary-menu-sub-active.png') no-repeat left;
+  color: #ffffff;
+}
+#block-superfish-1 .sf-menu.sf-navbar li ul {
+  background-color: #3270c5;
+}
+#block-superfish-1 .sf-menu.sf-navbar li ul li ul {
+  background-color: transparent;
+}
+#block-superfish-1 .sf-navbar li:focus ul,
+#block-superfish-1 .sf-navbar li:hover ul,
+#block-superfish-1 .sf-navbar li:active ul,
+#block-superfish-1 .sf-navbar li.sfHover ul,
+#block-superfish-1 .sf-navbar li li:focus ul,
+#block-superfish-1 .sf-navbar li li:hover ul,
+#block-superfish-1 .sf-navbar li li:active ul,
+#block-superfish-1 .sf-navbar li li.sfHover ul,
+#block-superfish-1 .sf-navbar .active-trail ul {
+  left: 1px;
+  top: 39px;
+}
+#block-superfish-1 .sf-menu li:hover ul,
+#block-superfish-1 .sf-menu li.sfHover ul {
+  left: 1px;
+  top: 39px;
+}
+
+#block-superfish-1 ul.sf-menu li {
+  margin: 0;
+}

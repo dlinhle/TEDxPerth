@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the views_all feature.
+ */
+
+include_once 'tedx_profile_views_all.features.inc';

@@ -1,0 +1,20 @@
+name = "tedx_profile_text_formats"
+description = "Text formats"
+core = "7.x"
+package = "Features"
+dependencies[] = "features"
+dependencies[] = "filter"
+dependencies[] = "menu"
+dependencies[] = "php"
+features[filter][] = "filtered_html"
+features[filter][] = "full_html"
+features[filter][] = "php_code"
+features[filter][] = "plain_text"
+features[menu_custom][] = "main-menu"
+
+; Information added by drupal.org packaging script on 2012-05-14
+version = "7.x-1.1"
+core = "7.x"
+project = "tedxprofile"
+datestamp = "1336998120"
+
