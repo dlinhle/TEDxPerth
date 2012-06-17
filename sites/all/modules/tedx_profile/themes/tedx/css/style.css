@@ -116,7 +116,7 @@ h1.logo img {
 .next-event-info {
   color: #ffffff;
   float: left;
-  font-family: 'HelveticaNeueETW01-55Rg';
+  font-family: 'Arimo', sans-serif;
   font-size: 20px;
   height: 40px;
   line-height: 20px;
@@ -129,7 +129,7 @@ h1.logo img {
   background: url('../images/primary-menu-bg.png') repeat-x;
   font-family: 'Arimo', sans-serif;
   font-size: 14px;
-  font-weight: normal;
+  font-weight: bold;
   height: 51px;
   width: 100%;
   z-index: 3;

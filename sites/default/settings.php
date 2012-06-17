@@ -200,7 +200,21 @@
  *   );
  * @endcode
  */
-$databases = array();
+$databases = array (
+  'default' => 
+  array (
+    'default' => 
+    array (
+      'database' => 'pantheon',
+      'username' => 'root',
+      'password' => 'mike5Sierra',
+      'host' => 'localhost',
+      'port' => '',
+      'driver' => 'mysql',
+      'prefix' => '',
+    ),
+  ),
+);
 
 /**
  * Access control for update.php script.
@@ -232,7 +246,7 @@ $update_free_access = FALSE;
  *   $drupal_hash_salt = file_get_contents('/home/example/salt.txt');
  *
  */
-$drupal_hash_salt = '';
+$drupal_hash_salt = 'D22ZX6H4gKLhaHN55Q1uuNl-E8qqGZnYbRYBu0OGNGo';
 
 /**
  * Base URL (optional).
