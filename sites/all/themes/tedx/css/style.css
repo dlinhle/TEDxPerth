@@ -1171,6 +1171,29 @@ table tr td {
     margin-left: 0;
 }
 
+
+/* #block-views-tedxperth_members-block */
+#block-views-tedxperth_members-block {
+    padding: 0;
+}
+
+#block-views-tedxperth_members-block .block-inner h3 {
+    text-transform: none;
+}
+
+#block-views-tedxperth_members-block .block-inner .block-title {
+    text-transform: none;
+    color: white;
+    background-color: #FF2B06;
+    padding: 10px;
+    margin: 0;
+}
+
+#block-views-tedxperth_members-block .block-inner .content {
+    padding: 10px;
+}
+
+
 .user_picture {
     float: right;
 }
