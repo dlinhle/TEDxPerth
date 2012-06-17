@@ -1106,3 +1106,22 @@ table tr td {
     padding: 10px;
 }
 
+
+#block-views-site_tweets-block {
+    padding: 0;
+}
+
+block-views-site_tweets-block .block-inner h3 {
+    text-transform: none;
+}
+
+#block-views-site_tweets-block .block-inner .block-title {
+    text-transform: none;
+    color: white;
+    background-color: #FF2B06;
+    padding: 10px;
+}
+
+#block-views-site_tweets-block .block-inner .content {
+    padding: 10px;
+}
