@@ -558,13 +558,13 @@ a.all {
   text-decoration: none;
 }
 h2.listing-title {
-  margin-bottom: 0;
+  margin-bottom: 10px;
 }
 h2.single-title {
   margin-bottom: 30px;
 }
 h1.listing-title {
-  margin-bottom: 0;
+  margin-bottom: 10px;
 }
 h1.single-title {
   margin-bottom: 30px;
