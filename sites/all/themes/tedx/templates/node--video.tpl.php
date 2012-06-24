@@ -9,9 +9,6 @@
 <div class="grid_8 alpha">
     <h1 class="single-title"><?php print $title; ?></h1>
 </div>
-<div class="view-page-info">
-    Recorded on <?php print $content['field_recorddate']['#items']['0']['value']; ?>
-</div>
 
 <div class="grid_10 alpha omega">
     <?php if (!empty($content['field_vimeocode'])): ?>
