@@ -6,7 +6,7 @@
 
 ?>
 <h3>Videos</h3>
-<div class="grid_8 alpha">
+<div class="grid_12 alpha">
     <h1 class="single-title"><?php print $title; ?></h1>
 </div>
 
