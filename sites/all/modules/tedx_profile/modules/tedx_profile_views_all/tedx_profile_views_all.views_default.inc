@@ -825,8 +825,7 @@ function tedx_profile_views_all_views_default_views() {
     t('<h2 class="news-title">Latest news updates</h2>'),
     t('author'),
     t('Page'),
-    t('<h3 class="title">News</h3>
-<h1 class="listing-title">News updates</h1>'),
+    t('<h1 class="listing-title">News</h1>'),
     t('posted on [created] by [name]'),
     t('Block'),
     t('<a class="all" href="<?php print base_path(); ?>news">All news</a>'),
@@ -982,8 +981,7 @@ function tedx_profile_views_all_views_default_views() {
   $handler->display->display_options['header']['area']['table'] = 'views';
   $handler->display->display_options['header']['area']['field'] = 'area';
   $handler->display->display_options['header']['area']['empty'] = FALSE;
-  $handler->display->display_options['header']['area']['content'] = '<h3 class="title">Speakers</h3>
-<h1 class="listing-title">Confirmed speakers</h1>';
+  $handler->display->display_options['header']['area']['content'] = '<h1 class="listing-title">Speakers</h1>';
   $handler->display->display_options['header']['area']['format'] = 'filtered_html';
   $handler->display->display_options['header']['area']['tokenize'] = 0;
   $handler->display->display_options['defaults']['footer'] = FALSE;
@@ -1367,8 +1365,7 @@ function tedx_profile_views_all_views_default_views() {
     t('- All -'),
     t('Offset'),
     t('Page'),
-    t('<h3 class="title">Speakers</h3>
-<h1 class="listing-title">Confirmed speakers</h1>'),
+    t('<h1 class="listing-title">Speakers</h1>'),
     t('Block'),
     t('<a class="all" href="<?php print base_path(); ?>speakers">All speakers</a>'),
   );
