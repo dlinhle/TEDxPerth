@@ -1068,16 +1068,16 @@ table tr td {
 
 /* TEDxPerth Overrides
 ---------------------------------------------------- */
-/* #block-widgets-s_socialmedia_profile-default */
-#block-widgets-s_socialmedia_profile-default {
+/* #block-widgets-s_follow_the_conversation */
+#block-widgets-s_follow_the_conversation {
   padding: 0;
 }
 
-#block-widgets-s_socialmedia_profile-default .block-inner h3 {
+#block-widgets-s_follow_the_conversation .block-inner h3 {
     text-transform: none;
 }
 
-#block-widgets-s_socialmedia_profile-default .block-inner .block-title {
+#block-widgets-s_follow_the_conversation .block-inner .block-title {
     text-transform: none;
     color: white;
     background-color: #FF2B06;
@@ -1085,7 +1085,7 @@ table tr td {
     margin: 0;
 }
 
-#block-widgets-s_socialmedia_profile-default .block-inner .content {
+#block-widgets-s_follow_the_conversation .block-inner .content {
     padding: 10px;
 }
 
