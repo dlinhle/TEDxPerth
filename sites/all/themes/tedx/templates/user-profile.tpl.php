@@ -43,7 +43,6 @@
 <div style="display:inline">
     <a target="_blank" href="http://www.youtube.com/user/<?php print $user_profile['field_youtubecode'][0]['#markup']; ?>">
         <img src="/sites/all/modules/socialmedia/icons/levelten/glossy/32x32/youtube.png">
-        &nbsp; Find me on YouTube
     </a>
 </div>
 <?php endif; ?>
