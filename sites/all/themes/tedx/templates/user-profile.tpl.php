@@ -2,6 +2,17 @@
 <div style="width:350px;display:inline">
     <?php print $user_profile['user_picture']['#markup']; ?>
 </div>
+
+<?php if (isset($user_profile['field_occupation'][0]['#markup'])): ?>
+<h3>Occupation</h3>
+<p><?php print $user_profile['field_occupation'][0]['#markup']; ?></p>
+<?php endif; ?>
+
+<?php if (isset($user_profile['field_company'][0]['#markup'])): ?>
+<h3>Company/Organisation</h3>
+<p><?php print $user_profile['field_company'][0]['#markup']; ?></p>
+<?php endif; ?>
+
 <div style="margin: 2em 0 2em 0">
     <h3>About Me</h3>
     <p><?php print $user_profile['field_about_me'][0]['#markup']; ?></p>
