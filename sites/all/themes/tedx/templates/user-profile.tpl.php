@@ -26,23 +26,20 @@
 <?php if (isset($user_profile['field_linkedin'][0]['#markup'])): ?>
 <div style="display:inline">
     <a target="_blank" href="http://www.linkedin.com/in/<?php print $user_profile['field_linkedin'][0]['#markup']; ?>">
-        <img src="/sites/all/modules/socialmedia/icons/levelten/glossy/32x32/linkedin.png">
-    </a>
+        <img src="/sites/all/modules/socialmedia/icons/levelten/glossy/32x32/linkedin.png"></a>
 </div>
 <?php endif; ?>
 
 <?php if (isset($user_profile['field_twitter'][0]['#markup'])): ?>
 <div style="display:inline">
     <a target="_blank" href="http://www.twitter.com/<?php print $user_profile['field_twitter'][0]['#markup']; ?>">
-        <img src="/sites/all/modules/socialmedia/icons/levelten/glossy/32x32/twitter.png">
-    </a>
+        <img src="/sites/all/modules/socialmedia/icons/levelten/glossy/32x32/twitter.png"></a>
 </div>
 <?php endif; ?>
 
 <?php if (isset($user_profile['field_youtubecode'][0]['#markup'])): ?>
 <div style="display:inline">
     <a target="_blank" href="http://www.youtube.com/user/<?php print $user_profile['field_youtubecode'][0]['#markup']; ?>">
-        <img src="/sites/all/modules/socialmedia/icons/levelten/glossy/32x32/youtube.png">
-    </a>
+        <img src="/sites/all/modules/socialmedia/icons/levelten/glossy/32x32/youtube.png"></a>
 </div>
 <?php endif; ?>
