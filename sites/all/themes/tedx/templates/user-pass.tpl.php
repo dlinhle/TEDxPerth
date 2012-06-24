@@ -1,4 +1,4 @@
-<p><?php print render($intro_text); ?></p>
+<h1><?php print render($title); ?></h1>
 <div class="yourtheme-user-login-form-wrapper">
     <?php print drupal_render_children($form) ?>
 </div>

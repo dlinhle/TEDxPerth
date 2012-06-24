@@ -261,12 +261,15 @@ function tedx_theme() {
 }
 function tedx_preprocess_user_login(&$vars) {
     $vars['intro_text'] = t('Log into TEDxPerth as a Community Member.');
+    $vars['title'] = t('Login to Your Account');
 }
 
 function tedx_preprocess_user_register_form(&$vars) {
     $vars['intro_text'] = t('Register as a TEDxPerth Community Member.');
+    $vars['title'] = t('Register as a TEDxPerth Community Member');
 }
 
 function tedx_preprocess_user_pass(&$vars) {
     $vars['intro_text'] = t('Reset your password.');
+    $vars['title'] = t('Reset Your Password');
 }
