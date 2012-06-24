@@ -255,7 +255,7 @@ function tedx_theme() {
             'tedx_preprocess_user_pass'
         ),
     );
-    $items['edit_profile_user_profile_form'] = array(
+    $items['user_profile_form'] = array(
         'render element' => 'form',
         'template' => 'user-profile-form',
         'path' => drupal_get_path('theme', 'tedx') . '/templates',
