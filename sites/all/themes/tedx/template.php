@@ -255,6 +255,15 @@ function tedx_theme() {
             'tedx_preprocess_user_pass'
         ),
     );
+    $items['user_profile_form'] = array(
+        'render element' => 'form',
+        'template' => 'user-profile-form',
+        'path' => drupal_get_path('theme', 'tedx') . '/templates',
+        'preprocess functions' => array(
+            'tedx_preprocess_user_profile_form'
+        ),
+    );
+
 
 
     return $items;
@@ -272,4 +281,9 @@ function tedx_preprocess_user_register_form(&$vars) {
 function tedx_preprocess_user_pass(&$vars) {
     $vars['intro_text'] = t('Reset your password.');
     $vars['title'] = t('Reset Your Password');
+}
+
+function tedx_preprocess_user_profile_form(&$vars) {
+    $vars['intro_text'] = t('Edit your account.');
+    $vars['title'] = t('Edit Your Account');
 }
