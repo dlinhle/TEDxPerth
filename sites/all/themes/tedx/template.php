@@ -226,3 +226,47 @@ function tedx_form_alter(&$form, &$form_state, $form_id) {
     $form['search_block_form']['#attributes'] = array('onblur' => "if (this.value == '') {this.value =  '{$form_default}';}", 'onfocus' => "if (this.value == '{$form_default}') {this.value = '';}");
   }
 }
+
+
+function tedx_theme() {
+    $items = array();
+
+    $items['user_login'] = array(
+        'render element' => 'form',
+        'path' => drupal_get_path('theme', 'tedx') . '/templates',
+        'template' => 'user-login',
+        'preprocess functions' => array(
+            'tedx_preprocess_user_login'
+        ),
+    );
+    $items['user_register_form'] = array(
+        'render element' => 'form',
+        'path' => drupal_get_path('theme', 'tedx') . '/templates',
+        'template' => 'user-register-form',
+        'preprocess functions' => array(
+            'tedx_preprocess_user_register_form'
+        ),
+    );
+    $items['user_pass'] = array(
+        'render element' => 'form',
+        'path' => drupal_get_path('theme', 'tedx') . '/templates',
+        'template' => 'user-pass',
+        'preprocess functions' => array(
+            'tedx_preprocess_user_pass'
+        ),
+    );
+
+
+    return $items;
+}
+function tedx_preprocess_user_login(&$vars) {
+    $vars['intro_text'] = t('Log into TEDxPerth as a Community Member.');
+}
+
+function tedx_preprocess_user_register_form(&$vars) {
+    $vars['intro_text'] = t('Register as a TEDxPerth Community Member.');
+}
+
+function tedx_preprocess_user_pass(&$vars) {
+    $vars['intro_text'] = t('Reset your password.');
+}
