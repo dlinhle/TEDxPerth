@@ -1,4 +1,4 @@
-<h1><?php print $user_profile['field_first_name'] + ' ' + $user_profile['field_last_name']; ?></h1>
+<h1><?php print $user_profile['field_first_name'] . ' ' . $user_profile['field_last_name']; ?></h1>
 <?php print $user_profile['user_picture']['#markup']; ?>
 <h3>About Me</h3>
 <p><?php print $user_profile['field_about_me']; ?></p>
