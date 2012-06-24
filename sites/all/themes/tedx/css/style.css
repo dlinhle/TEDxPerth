@@ -1208,3 +1208,7 @@ table tr td {
     font-weight: bold;
 }
 
+/* Avatar Grid */
+.avatar-grid {
+    padding: 0;
+}
