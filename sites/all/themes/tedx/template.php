@@ -265,8 +265,8 @@ function tedx_preprocess_user_login(&$vars) {
 }
 
 function tedx_preprocess_user_register_form(&$vars) {
-    $vars['intro_text'] = t('Register as a TEDxPerth Community Member.');
-    $vars['title'] = t('Register as a TEDxPerth Community Member');
+    $vars['intro_text'] = t('Register as a Community Member.');
+    $vars['title'] = t('Register as a Community Member');
 }
 
 function tedx_preprocess_user_pass(&$vars) {
