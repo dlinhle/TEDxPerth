@@ -1216,3 +1216,7 @@ table tr td {
 .tabs {
     display: none;
 }
+
+.field-content h2 {
+    margin-bottom: 5px;
+}
