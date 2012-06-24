@@ -372,8 +372,7 @@ function tedx_profile_views_all_views_default_views() {
   $handler->display->display_options['header']['area']['table'] = 'views';
   $handler->display->display_options['header']['area']['field'] = 'area';
   $handler->display->display_options['header']['area']['empty'] = FALSE;
-  $handler->display->display_options['header']['area']['content'] = '<h3 class="title">News</h3>
-<h1 class="listing-title">News updates</h1>';
+  $handler->display->display_options['header']['area']['content'] = '<h1 class="listing-title">News</h1>';
   $handler->display->display_options['header']['area']['format'] = 'filtered_html';
   $handler->display->display_options['header']['area']['tokenize'] = 0;
   $handler->display->display_options['defaults']['footer'] = FALSE;
@@ -1535,8 +1534,7 @@ function tedx_profile_views_all_views_default_views() {
   $handler->display->display_options['header']['area']['table'] = 'views';
   $handler->display->display_options['header']['area']['field'] = 'area';
   $handler->display->display_options['header']['area']['empty'] = FALSE;
-  $handler->display->display_options['header']['area']['content'] = '<h3 class="title">Videos</h3>
-<h1 class="listing-title">TEDxPerth Videos</h1>';
+  $handler->display->display_options['header']['area']['content'] = '<h1 class="listing-title">TEDxPerth Videos</h1>';
   $handler->display->display_options['header']['area']['format'] = 'filtered_html';
   $handler->display->display_options['header']['area']['tokenize'] = 0;
   $handler->display->display_options['defaults']['footer'] = FALSE;
