@@ -723,7 +723,13 @@ ul.pager a:hover {
     color: white;
     display: inline-block;
     height: 22px;
+    line-height: 22px;
 }
+#block-views-news-block .content .view-footer a:hover {
+    background-color: transparent;
+    background-position: bottom right;
+}
+
 
 
 /* `Videos view page
