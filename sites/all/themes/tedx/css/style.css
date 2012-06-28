@@ -724,7 +724,7 @@ ul.pager a:hover {
     display: inline-block;
     height: 22px;
     line-height: 22px;
-    margin-left: 10px;
+    margin-left: 0;
 }
 #block-views-news-block .content .view-footer a:hover {
     background: url('../images/link.png') no-repeat bottom right;
