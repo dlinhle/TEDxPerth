@@ -7,9 +7,10 @@
 
 /* `Basic HTML
 ----------------------------------------------------------------------------------------------------*/
+@import url(http://fonts.googleapis.com/css?family=Arimo:400,700);
 
 body {
-  font: 13px/1.5 'Helvetica Neue', Arial, 'Liberation Sans', FreeSans, sans-serif;
+  font: 13px/1.5 'Arimo', Arial, 'Liberation Sans', FreeSans, sans-serif;
 }
 
 a:focus {
