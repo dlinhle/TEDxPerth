@@ -726,11 +726,8 @@ ul.pager a:hover {
     line-height: 22px;
 }
 #block-views-news-block .content .view-footer a:hover {
-    background-color: transparent;
-    background-position: bottom right;
+    background: url('../images/link.png') no-repeat top right;
 }
-
-
 
 /* `Videos view page
 ----------------------------------------------------------------------------------------------------*/
