@@ -185,7 +185,7 @@ h1.logo img {
 /* 2 - Highlighter
 ----------------------------------------------------------------------------------------------------*/
 .highlighter {
-  background: url('../images/highlighter-bg.png') repeat-x;
+  background-color: black;
   height: 320px;
   margin-bottom: 30px;
   margin-top: -12px;
