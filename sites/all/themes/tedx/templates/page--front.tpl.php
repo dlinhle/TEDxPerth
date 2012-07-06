@@ -45,7 +45,7 @@
       <div class="highlighter-shadow-top"></div>
         <div class="highlighter-container">
           <div class="container_16">
-            <img src="/sites/all/themes/tedx/images/splash_1b.jpg" alt="TEDxPerth Splash">
+            <img src="/sites/all/themes/tedx/images/splash_1.jpg" alt="TEDxPerth Splash">
          </div>
         </div>
       <div class="highlighter-shadow"></div>
