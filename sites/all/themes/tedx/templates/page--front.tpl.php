@@ -20,7 +20,7 @@
         <?php endif; ?>
       </div>
 
-      <!-- NEXT EVENT -->	
+      <!-- NEXT EVENT -->
       <div class="grid_8">
 
       </div>
@@ -40,24 +40,18 @@
   </div>
 
 <!-- HIGHLIGHTER -->
-<!--	
   <div class="highlighter">
     <div class="highlighter-upload">
       <div class="highlighter-shadow-top"></div>
-      <div class="highlighter-image">
-        <img src="<?php print file_create_url(theme_get_setting('sublogo_path')); ?>" />
-      </div>
         <div class="highlighter-container">
           <div class="container_16">
-            <div class="highlighter-vimeo">
-              <iframe src="http://player.vimeo.com/video/<?php print theme_get_setting('header_vimeo_code'); ?>?title=0&amp;byline=0&amp;portrait=0&amp;color=ff2b06" width="640" height="272" frameborder="0" webkitAllowFullScreen allowFullScreen></iframe>
-            </div><!-- print the templatesettings chosen vimeo code -->
-<!--          </div>
+            <img src="../images/splash_1.png" alt="TEDxPerth Splash">
+         </div>
         </div>
       <div class="highlighter-shadow"></div>
     </div>
   </div>
--->
+
   <!-- DRUPAL MESSAGES AND OPTIONS -->
   <?php if ($messages || $tabs || $action_links): ?>
     <div class="container_16">

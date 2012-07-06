@@ -13,7 +13,6 @@
   <head profile="<?php print $grddl_profile; ?>">
     <?php print $head; ?>
     <title><?php print $head_title; ?></title>
-    <script type="text/javascript" src="http://fast.fonts.com/jsapi/810db20f-76e3-49a2-b0a7-38179a6232d9.js"></script>
     <meta property="og:image" content="<?php global $base_root; print $base_root . '/' . path_to_theme(); ?>/images/TEDxEutropolis-avatar.png"/>
     <?php print $styles; ?>
     <?php print $scripts; ?>
