@@ -1163,12 +1163,14 @@ function user_account_form(&$form, &$form_state) {
   $form['picture']['picture_current'] = array(
     '#markup' => theme('user_picture', array('account' => $account)),
   );
-  $form['picture']['picture_delete'] = array(
-    '#type' => 'checkbox',
-    '#title' => t('Delete picture'),
-    '#access' => !empty($account->picture->fid),
-    '#description' => t('Check this box to delete your current picture.'),
-  );
+/**
+  * $form['picture']['picture_delete'] = array(
+  *  '#type' => 'checkbox',
+  *  '#title' => t('Delete picture'),
+  *  '#access' => !empty($account->picture->fid),
+  *  '#description' => t('Check this box to delete your current picture.'),
+  *);
+  **/
   $form['picture']['picture_upload'] = array(
     '#type' => 'file',
     '#title' => t('Upload picture'),
