@@ -696,7 +696,9 @@ function user_validate_picture(&$form, &$form_state) {
       }
   }
   else {
-    form_set_error('picture_upload', "A profile picture is required.");
+    if ($form_state['values']['picture_upload'] === NULL) {
+        form_set_error('picture_upload', "A profile picture is required.");
+    }
   }
 }
 
