@@ -687,18 +687,11 @@ function user_validate_picture(&$form, &$form_state) {
 
   // Save the file as a temporary file.
   $file = file_save_upload('picture_upload', $validators);
-  if ($file) {
-      if ($file === FALSE) {
-        form_set_error('picture_upload', t("Failed to upload the picture image; the %directory directory doesn't exist or is not writable.", array('%directory' => variable_get('user_picture_path', 'pictures'))));
-      }
-      elseif ($file !== NULL) {
-        $form_state['values']['picture_upload'] = $file;
-      }
+  if ($file === FALSE) {
+    form_set_error('picture_upload', t("Failed to upload the picture image; the %directory directory doesn't exist or is not writable.", array('%directory' => variable_get('user_picture_path', 'pictures'))));
   }
-  else {
-    if ($form_state['values']['picture_upload'] === NULL) {
-        form_set_error('picture_upload', "A profile picture is required.");
-    }
+  elseif ($file !== NULL) {
+    $form_state['values']['picture_upload'] = $file;
   }
 }
 

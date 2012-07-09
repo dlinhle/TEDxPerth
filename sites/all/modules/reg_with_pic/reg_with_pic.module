@@ -55,7 +55,7 @@ function reg_with_pic_form_user_register_form_alter(&$form, &$form_state, $form_
     '#description' => t('Your virtual face or picture. Pictures larger than @dimensions pixels will be scaled down.', array('@dimensions' => variable_get('user_picture_dimensions', '85x85'))) . ' ' . filter_xss_admin(variable_get('user_picture_guidelines', '')),
   );
   // Validate with user module validation function.
-  $form['#validate'][] = 'user_validate_picture';
+  $form['#validate'][] = 'user_validate_picture_on_reg';
 
   return $form;
 }
@@ -92,5 +92,28 @@ function reg_with_pic_entity_presave($account, $type) {
   // Update user record with picture fid.
   if (isset($account->picture->fid)) {
     $account->picture = $account->picture->fid;
+  }
+}
+
+function user_validate_picture_on_reg(&$form, &$form_state) {
+  // If required, validate the uploaded picture.
+  $validators = array(
+    'file_validate_is_image' => array(),
+    'file_validate_image_resolution' => array(variable_get('user_picture_dimensions', '85x85')),
+    'file_validate_size' => array(variable_get('user_picture_file_size', '30') * 1024, 0),
+  );
+
+  // Save the file as a temporary file.
+  $file = file_save_upload('picture_upload', $validators);
+  if ($file) {
+      if ($file === FALSE) {
+        form_set_error('picture_upload', t("Failed to upload the picture image; the %directory directory doesn't exist or is not writable.", array('%directory' => variable_get('user_picture_path', 'pictures'))));
+      }
+      elseif ($file !== NULL) {
+        $form_state['values']['picture_upload'] = $file;
+      }
+  }
+  else {
+    form_set_error('picture_upload', "A profile picture is required.");
   }
 }
