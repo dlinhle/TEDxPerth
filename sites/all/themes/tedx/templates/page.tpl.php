@@ -10,20 +10,21 @@
   <!-- HEADER -->
   <div class="header">
     <div class="container_16">
-      <div class="grid_8">
+        <!--<div class="grid_8">-->
         <?php if ($logo): ?>
           <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" class="front-link">
-            <h1 class="logo">
+              <!--<h1 class="logo">-->
               <img src="<?php print $logo; ?>" alt="TEDxPerth" />
-            </h1>
+              <!--</h1>-->
           </a>
         <?php endif; ?>
-      </div>
+        <!--</div>-->
 
-      <!-- NEXT EVENT -->	
-      <div class="grid_8">
 
-      </div>
+        <!-- NEXT EVENT -->
+        <!--<div class="grid_8">-->
+
+        <!--</div>-->
     </div>
   </div>
 
