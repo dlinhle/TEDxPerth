@@ -10,7 +10,7 @@
   <!-- HEADER -->
   <div class="header">
     <div class="container_16">
-      <div class="grid_16"></div>
+      <div class="grid_16" style="float: none"></div>
         <?php if ($logo): ?>
           <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" class="front-link">
             <!--<h1 class="logo">-->
