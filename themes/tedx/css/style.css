@@ -687,7 +687,7 @@ ul.pager a:hover {
 #block-views-news-block .content .views-field-body a,
 #block-views-news-block_2 .content .views-field-body a {
     color: #ff2b06;
-    display: block;
+    display: inline;
     height: inherit;
     line-height: inherit;
     margin-left: inherit;
