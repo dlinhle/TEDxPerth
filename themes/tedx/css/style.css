@@ -674,15 +674,25 @@ ul.pager a:hover {
 
 /* `News view blocks
 ----------------------------------------------------------------------------------------------------*/
-#block-views-news-block .content a,
-#block-views-news-block_2 .content a {
-  color: #ff2b06;
-  display: block;
-  height: 30px;
-  line-height: 30px;
-  margin-left: -10px;
-  padding-left: 10px;
-  width: 100%;
+#block-views-news-block .content .views-field-view-node a,
+#block-views-news-block_2 .content .views-field-view-node a {
+    color: #ff2b06;
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    margin-left: -10px;
+    padding-left: 10px;
+    width: 100%;
+}
+#block-views-news-block .content .views-field-body a,
+#block-views-news-block_2 .content .views-field-body a {
+    color: #ff2b06;
+    display: block;
+    height: inherit;
+    line-height: inherit;
+    margin-left: inherit;
+    padding-left: inherit;
+    width: 100%;
 }
 #block-views-news-block .content a:hover,
 #block-views-news-block_2 .content a:hover {
