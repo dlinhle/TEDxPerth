@@ -13,7 +13,7 @@
   <head profile="<?php print $grddl_profile; ?>">
     <?php print $head; ?>
     <title><?php print $head_title; ?></title>
-    <meta property="og:image" content="<?php global $base_root; print $base_root . '/' . path_to_theme(); ?>/images/TEDxEutropolis-avatar.png"/>
+    <meta property="og:image" content="<?php global $base_root; print $base_root . '/' . path_to_theme(); ?>/images/TEDxPerth-avatar.png"/>
     <?php print $styles; ?>
     <?php print $scripts; ?>
   </head>
