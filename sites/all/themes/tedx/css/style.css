@@ -563,7 +563,6 @@ h1.single-title {
 }
 .page-speakers .view-display-id-page .views-row {
   border-bottom: 1px solid #f1f1ec;
-  height: 150px;
   overflow: hidden;
   padding: 20px 0 20px 0;
 }
@@ -571,14 +570,12 @@ h1.single-title {
   text-indent: -9999px;
 }
 .page-speakers .view-display-id-page .views-row .views-field-view-node a {
-  height: 150px;
   left: 0;
   position: absolute;
   top: 0;
   width: 100%;
 }
 .page-speakers .view-display-id-page .views-row .views-field-view-node {
-  height: 150px;
   left: 0;
   position: absolute;
   top: 0;
@@ -1235,4 +1232,8 @@ table tr td {
 
 .team-member-name {
     margin-bottom: 5px;
+}
+
+.view-tedxperth-team table tr td {
+    padding: 5px
 }
